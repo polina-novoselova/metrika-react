@@ -1,0 +1,43 @@
+.projects {
+  margin-top: 150px;
+}
+
+.projects__title {
+  margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 1199px) {
+  .projects {
+    margin-top: 120px;
+  }
+
+  .projects__title {
+    margin-bottom: 30px;
+  }
+
+  .project__list {
+    margin-bottom: 80px;
+  }
+
+  .project__list:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects {
+    margin-top: 80px;
+  }
+
+  .projects__title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .project__list {
+    margin-bottom: 49px;
+  }
+}

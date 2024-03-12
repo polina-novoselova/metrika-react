@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+p,
+a,
+button,
+input {
+  font-family: manrope;
+  letter-spacing: -0.03em;
+}
+
+/* body-fixed for popup.js*/
+
+.body_fixed {
+  overflow: hidden;
+}
+
+.conteiner {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .conteiner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px 0 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .conteiner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
+}

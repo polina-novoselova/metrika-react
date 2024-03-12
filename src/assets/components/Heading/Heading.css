@@ -1,0 +1,23 @@
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 25px;
+}
+  
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+@media (max-width: 1199px) {
+   
+}
+
+  
+@media (max-width: 767px) {
+    
+}

@@ -1,0 +1,49 @@
+.about {
+    margin-top: 150px;
+  }
+  
+  .about__title {
+    color: #121212;
+  }
+  
+  .about__description {
+    margin-top: 30px;
+    margin-left: 3px;
+    max-width: 1048px;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+  }
+  
+  
+  @media (max-width: 1199px) {
+    .about {
+      margin-top: 120px;
+    }
+  
+    .about__description {
+      max-width: 690px;
+      font-size: 35px;
+      line-height: 48px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .about {
+      margin-top: 80px;
+    }
+  
+    .about__title {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  
+    .about__description {
+      margin-top: 20px;
+      width: 100%;
+      font-size: 22px;
+      line-height: 30px;
+    }
+  
+    
+  }

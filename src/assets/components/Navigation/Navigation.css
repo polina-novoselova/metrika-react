@@ -1,0 +1,34 @@
+.header-inner {
+  position: relative;
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 466px;
+  justify-content: space-between;
+}
+
+.nav__link {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #121212;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav__link:hover {
+  border-bottom: 1px solid;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+  .nav {
+    display: none;
+  }
+}
