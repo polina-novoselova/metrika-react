@@ -5,7 +5,7 @@ import "./Button.css";
 function Button (props) {
     return (
         <div>
-            <button className={props.className}>{props.text}</button>
+            <button onClick={props.onClick} className={props.className} href={props.link}>{props.text}</button>
         </div>
     )
 }

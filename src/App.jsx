@@ -24,8 +24,8 @@ function App() {
         <ReviewsSection />
         <Gallery />
         <ContactsSection />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

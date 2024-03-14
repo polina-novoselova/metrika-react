@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../Heading/Heading";
 import "./MainSection.css";
-import MainImg from './MainScreenImg.png'
+import MainImg from './MainImg'
 
 function MainSection() {
   return (
@@ -12,7 +12,7 @@ function MainSection() {
         text="Современные и стильные интерьеры для комфортной жизни"
       />
       <div className="main-screen__img">
-        <img src={MainImg} />
+        <MainImg />
         <p className="main-screen__description">
           Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
           разработкой и реализацией дизайн-проектов

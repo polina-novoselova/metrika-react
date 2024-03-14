@@ -1,0 +1,59 @@
+.main-img-screen {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: none;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  background-size: cover;
+  background-position: 50%;
+}
+
+.main-img-tablet {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: none;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  background-size: cover;
+  background-position: 50%;
+}
+
+.main-img-phone {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: none;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  background-size: cover;
+  background-position: 50%;
+}
+
+@media (min-width: 1200px) {
+  .main-img-screen {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .main-img-tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-img-phone {
+    display: block;
+  }
+}
